@@ -1,0 +1,12 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+.category-section {
+  flex-grow: 1;
+  /* Additional styling if needed */
+}

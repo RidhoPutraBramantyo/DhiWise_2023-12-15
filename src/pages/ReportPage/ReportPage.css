@@ -1,0 +1,7 @@
+
+.report-page-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* CSS untuk TransactionSidebar dan OrderDetail akan didefinisikan di file CSS mereka masing-masing */

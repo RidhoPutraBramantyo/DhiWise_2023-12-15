@@ -1,0 +1,83 @@
+[
+  { 
+    "categoryName": "Best Seller Menu", 
+    "icon":"/images/img_bestseller.png",
+    "items": [    
+        {
+        "name": "Splitza",
+        "description": "2 Pilihan topping dalam 1 pizza",
+        "price": 89999
+    },
+    {
+     "name": "Spaghetti Bolognese",
+        "description": "A family favourite spaghetti with a rich and flavourful meat sauce, ready in 30 minutes.",
+        "price": 50000
+    },
+    {
+        "name": "Cheeseburger",
+        "description": "Daging Sapi Cincang Berbumbu, Keju Cheddar, Onion, Tomat, Beef Bits, ...",
+        "price": 99999
+    }
+]
+  },
+  { 
+    "categoryName": "Pizza",
+    "icon":"/images/img_pizza.png",
+    "items": [
+    {
+        "name": "Splitza",
+        "description": "2 Pilihan topping dalam 1 pizza",
+        "price": 89999,
+        "image": "/images/img_splitza.png"
+    },
+    {
+        "name": "Frankfurter BBQ",
+        "description": "Frankfurter Sapi, Daging Sapi Cincang, dan Keju Mozzarella",
+        "price": 94999,
+        "image": "/images/img_frankfuter-bbq.png"
+    },
+    {
+        "name": "Cheeseburger",
+        "description": "Daging Sapi Cincang Berbumbu, Keju Cheddar, Onion, Tomat, Beef Bits, ...",
+        "price": 99999,
+        "image": "/images/img_splitza.png"
+    },
+    {
+        "name": "Meat Monsta",
+        "description": "Frankfurter Sapi, Daging Sapi Asap, Daging Sapi Cincang, Jamur, dan Keju...",
+        "price": 104999,
+        "image": "/images/img_meat-monsta.png"
+    },
+    {
+        "name": "Super Supreme",
+        "description": "Daging Sapi Cincang, Daging Sapi Asap, Burger Sapi, Daging ayam Asap...",
+        "price": 109999,
+        "image": "/images/img_super-supreme.png"
+    },
+    {
+        "name": "Pepperoni",
+        "description": "Pepperoni Sapi dan Keju Mozzarella",
+        "price": 89999,
+        "image": "/images/img_pepperoni.png"
+    },
+    {
+        "name": "American Fav",
+        "description": "Pepperoni Sapi, Daging Sapi Cincang, Onion, Jamur, dan Keju Mozzarella",
+        "price": 93999,
+        "image": "/images/img_american-fav.png"
+    },
+    {
+        "name": "Cheese Lovers",
+        "description": "Keju Mozzarella (String & Shredded) dan Keju Parmesan",
+        "price": 97999,
+        "image": "/images/img_cheese-lovers.png"
+    }
+    ]
+  }
+]
+
+
+
+
+
+

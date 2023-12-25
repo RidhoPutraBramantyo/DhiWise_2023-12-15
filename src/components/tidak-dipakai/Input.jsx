@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { ErrorMessage } from "../../components/ErrorMessage";
+import { ErrorMessage } from "./ErrorMessage";
 
 const variants = {
   fill: {
@@ -34,7 +34,7 @@ const Input = React.forwardRef(
       color = "blue_gray_50",
       ...restProps
     },
-    ref,
+    ref
   ) => {
     const handleChange = (e) => {
       if (onChange) onChange(e?.target?.value);
@@ -64,7 +64,7 @@ const Input = React.forwardRef(
         {!!errors && <ErrorMessage errors={errors} />}
       </>
     );
-  },
+  }
 );
 
 Input.propTypes = {

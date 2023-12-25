@@ -1,9 +1,9 @@
 import React from "react";
 
-import { Button, Img, Text } from "components";
-import Sidebar1 from "components/Sidebar1";
+import { Button, Img, Text } from "components/tidak-dipakai";
+import Sidebar1 from "components/tidak-dipakai/Sidebar1";
 
-const ReportPagePage = () => {
+const ReportPage = () => {
   return (
     <>
       <div className="bg-gray-50 flex sm:flex-col md:flex-col flex-row font-poppins sm:gap-5 md:gap-5 items-start mx-auto w-full">
@@ -398,4 +398,4 @@ const ReportPagePage = () => {
   );
 };
 
-export default ReportPagePage;
+export default ReportPage;

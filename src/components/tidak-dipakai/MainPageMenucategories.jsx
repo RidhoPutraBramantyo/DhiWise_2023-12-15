@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Img, Text } from "components";
+import { Img, Text } from "components/tidak-dipakai";
 
 const MainPageMenucategories = (props) => {
   return (

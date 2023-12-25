@@ -1,0 +1,84 @@
+.fnb-card {
+  width: 200px; /* Lebar tetap */
+  height: 320px; /* Tinggi tetap */
+  padding: 0px 0px 16px 0px; /* Padding bawah */
+  border-radius: 8px; /* Radius sudut untuk seluruh kartu */
+  border: 1px solid #ccc; /* Border kartu */
+  gap: 4px; /* Jarak antara elemen di dalam kartu */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Sembunyikan konten yang melebihi batas kartu */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Bayangan kotak untuk efek elevasi */
+  cursor: pointer; /* Ubah cursor saat hover */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transisi untuk hover */
+ flex-shrink: 0; /* Mencegah kartu menyusut di bawah ukuran minimal */}
+
+.fnb-card:hover {
+  transform: scale(1.05); /* Efek hover dengan sedikit pembesaran */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Bayangan yang lebih besar saat hover */
+}
+
+.fnb-image-container {
+  width: 200px; /* Lebar sama dengan kartu */
+  height: 152px; /* Tinggi tetap */
+  border-radius: 8px 8px 0 0; /* Radius sudut atas */
+  overflow: hidden; /* Potong gambar yang melebihi batas */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fnb-image {
+  width: 100%; /* Lebar penuh container */
+  height: auto; /* Tinggi otomatis */
+  object-fit: cover; /* Pastikan gambar menutupi area tanpa distorsi */
+}
+
+.fnb-description {
+  width: 196px; /* Lebar tetap */
+  height: 148px; /* Tinggi tetap */
+  padding: 8px 12px; /* Padding di dalam deskripsi */
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Jarak antara teks judul dan deskripsi */
+  justify-content: center;
+}
+
+.fnb-title {
+  width: 172px; /* Lebar tetap */
+  height: 28px; /* Tinggi tetap */
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600; /* Semibold */
+  line-height: 28px;
+  color: rgba(32, 41, 57, 1); /* Warna teks */
+  text-align: left;
+  margin: 0; /* Hapus margin default */
+}
+
+.fnb-detail {
+  width: 172px; /* Lebar tetap */
+  height: 60px; /* Tinggi tetap */
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500; /* Medium */
+  line-height: 18px;
+  color: rgba(105, 117, 134, 1); /* Warna teks */
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Tambahkan ellipsis untuk teks yang panjang */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Batasi jumlah baris teks */
+  -webkit-box-orient: vertical;
+}
+
+.fnb-price {
+  width: 172px; /* Lebar tetap */
+  height: 28px; /* Tinggi tetap */
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600; /* Semibold */
+  line-height: 28px;
+  color: rgba(145, 32, 24, 1); /* Warna teks */
+  text-align: left;
+}

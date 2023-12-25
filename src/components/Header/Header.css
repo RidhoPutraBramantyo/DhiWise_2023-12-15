@@ -1,0 +1,61 @@
+.header {
+  /* margin-left: 200px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Atur lebar menjadi penuh */
+  z-index: 100; /* Pastikan header selalu di atas */
+}
+
+.logo {
+width: 80px;
+height: 33px
+
+}
+
+.search-bar input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 200px; /* Atur lebar sesuai kebutuhan */
+}
+
+.user-info {
+width:  151px;
+height:  48px;
+gap: 12px;
+display: flex;
+}
+
+.user-avatar {
+  width: 48px;
+height: 48px;
+}
+
+.user-name-role {
+  width: 91px;
+  height: 48px;
+  gap: 4px;
+  display: flex;
+  flex-direction: column; /* Jika nama dan role ditampilkan secara vertikal */
+}
+
+.user-name {
+width: 91px;
+height: 24px;
+
+}
+
+.user-role {
+  width: 55px;
+height: 20px;
+
+}
+

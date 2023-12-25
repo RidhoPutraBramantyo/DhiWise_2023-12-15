@@ -1,10 +1,10 @@
 import React from "react";
 
-import { Button, Img, Input, List, Text } from "components";
-import MainPageCard from "components/MainPageCard";
-import MainPageMenucategories from "components/MainPageMenucategories";
-import MainPageMenucategories1 from "components/MainPageMenucategories1";
-import Sidebar1 from "components/Sidebar1";
+import { Button, Img, Input, List, Text } from "components/tidak-dipakai";
+import MainPageCard from "components/tidak-dipakai/MainPageCard";
+import MainPageMenucategories from "components/tidak-dipakai/MainPageMenucategories";
+import MainPageMenucategories1 from "components/tidak-dipakai/MainPageMenucategories1";
+import Sidebar1 from "components/tidak-dipakai/Sidebar1";
 
 import { CloseSVG } from "../../assets/images";
 

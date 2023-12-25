@@ -1,0 +1,14 @@
+.main-content {
+  flex: 1; /* Mengambil sisa ruang yang tersedia */
+  display: flex; /* Menggunakan flexbox untuk layout */
+  flex-direction: column; /* Menata konten secara vertikal */
+  padding: 20px;
+  background-color: #fff; /* Warna latar untuk konten utama */
+  overflow-y: auto; /* Menambahkan scrollbar jika konten melebihi tinggi */
+}
+
+.categories {
+  margin-top: 20px; /* Memberikan jarak atas untuk kategori */
+}
+
+/* Anda mungkin ingin menambahkan lebih banyak styling di sini */

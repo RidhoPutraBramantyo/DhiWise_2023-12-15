@@ -1,0 +1,46 @@
+.transaction-sidebar {
+  width: 335px;
+  height: 1024px;
+  padding-top: 24px;
+  border-right: 1px solid rgba(205, 213, 223, 1);
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  overflow-y: auto;
+}
+
+.transaction-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.transaction-item {
+  padding: 12px;
+  border-bottom: 1px solid #CDD5DF;
+}
+
+.transaction-time {
+  font-size: 14px;
+  color: #333;
+}
+
+.transaction-status {
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.transaction-status.completed {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.transaction-status.selesai {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.transaction-status.dibatalkan {
+  background-color: #f8d7da;
+  color: #721c24;
+}

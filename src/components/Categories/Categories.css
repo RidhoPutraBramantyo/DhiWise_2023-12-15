@@ -1,0 +1,22 @@
+.categories {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category-item {
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+
+  /* Tambahkan efek hover */
+  &:hover {
+    background-color: #ececec;
+  }
+}
